@@ -1,5 +1,7 @@
 # Palimex_testing_script
 
+The printer's network interface also provides a simple control protocol for use by external systems or applications. Control is done by commands. Command formatting is consistent with JSON. After sending each command, we receive a return message from the printer containing the command execution status. To use them, you must properly configure the printer on the local network. The TCP / IP port: 3121 is used for the execution of commands.
+
 # START_PRINT
 
 START_PRINT starts printing the currently selected project. To execute the command, send to the printer:
