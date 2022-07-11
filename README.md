@@ -13,10 +13,15 @@ X - 0, the information about the necessity to edit (MustEdit) will be returned i
 Sample response from the printer:
 
 {"Status": "OK"}
+
 Where:
+
 Status:
+
  OK - command carried out
+ 
  Error - an error
+ 
  MustEdit - must be edited before printing
  
  
@@ -31,6 +36,9 @@ Sample response from the printer:
 {"Status": "OK"}
 
 Where:
+
 Status:
+
  OK - command carried out
+ 
  Error - an error
